@@ -53,8 +53,7 @@ const decCountFun =(e)=>{
 
 const removeCart =(e)=>{
 
-    const removeList = cartData.filter(item=>{
-        item.id!=e.target.name})
+    const removeList = cartData.filter(item=>item.id!=e.target.name)
     dispatch(addCartData(removeList))
 
     toast.success('Product removed from cart', {
