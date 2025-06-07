@@ -1,0 +1,64 @@
+.cardDiv{
+
+    padding: 8px 8px !important;
+}
+
+.cardDiv>div{
+
+    border: 1px solid #0000001a;
+    border-radius: 7px;
+    padding: 10px;
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cardDiv>div>div>span{
+
+    position: absolute;
+    top: 2px;
+    right: 0px;
+    font-size: 13.5px;
+    background-color: #f3f1f1;
+    padding: 2px 12px;
+    border-radius: 6px;
+    z-index: 1000;
+}
+
+.cardDiv>div>div>a>div>img{
+
+    width:150px;
+    height: 150px;
+    transition: 0.5s;
+
+}
+
+.cardDiv>div>div>a>div>img:hover{
+
+    transform: scale(1.08,1.08);
+}
+
+.cardDiv>div>div>a>h5{
+
+    font-size: 16.5px;
+    font-weight: 455;
+    color: black;
+}
+
+.cardDiv>div>div>p{
+
+    font-size: 13.5px;
+    color: #0000009d;
+    margin-top: 7px;
+}
+
+.cardDiv>div>div>p>span{
+
+    background-color: #00000012;
+    color: black;
+    padding: 2px 3px;
+    border-radius: 8px;
+    margin-right: 10px;
+}

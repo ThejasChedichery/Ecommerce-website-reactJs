@@ -1,0 +1,27 @@
+
+.catDiv{
+
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.catDiv>img{
+
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.catDiv>h5{
+
+    text-align: center;
+    font-size: 15px;
+}
+.slick-next:before, .slick-prev:before {
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: rgb(130, 129, 129);
+}

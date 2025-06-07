@@ -1,0 +1,130 @@
+.navMain {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 18px 0px;
+    border-bottom: 1px solid #0000000f;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1001;
+}
+
+.navContent {
+
+    position: absolute;
+    z-index: 10000;
+    top: 109px;
+    left: 10%;
+    background-color: #ffff;
+    height: 81vh;
+    padding: 0 119px;
+    transition: all 0.3s;
+
+}
+
+.navLogo{
+
+    display: flex;
+    align-items: center;
+}
+
+.navLogo>svg{
+
+    width: 27px;
+    height: 25px;
+    cursor: pointer;
+
+    @media (max-width:700px) {
+        
+        width: 18px;
+    }
+}
+
+.navLogo>img{
+
+    height: 60px;
+
+    @media (max-width:700px) {
+        
+        height: 31px;
+    }
+}
+
+.serchInp {
+
+    border: none;
+    padding: 3px 10px;
+    background-color: #00000009;
+    border-radius: 9px;
+    width: 34%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    color: #00000090;
+}
+
+.serchInp>input {
+
+    border: none;
+    outline: none;
+    padding: 9px 0;
+    width: 98%;
+    font-size: 18px;
+    background-color: #00000000;
+    height: 18px;
+    overflow: hidden;
+}
+.serchInp>svg{
+
+    padding: 0 9px;
+
+    @media (max-width:700px) {
+        
+        padding: 0;
+    }
+}
+
+.serchInp>input{
+
+    font-size: 15px;
+}
+.serchInp>input::placeholder{
+
+    color: #00000050;
+}
+
+.logCart{
+
+    display: flex;
+    align-items: center;
+}
+
+.logCart>button{
+
+
+    border: none;
+    background-color: transparent;
+    padding: 0 10px;
+    font-size: 25px;
+    cursor: pointer;
+
+    @media (max-width:700px) {
+        
+        font-size: 18px;
+    }
+
+}
+
+
+.logCart>svg{
+
+    font-size: 25px;
+    cursor: pointer;
+
+    @media (max-width:700px) {
+        
+        font-size: 18px;
+    }
+}
